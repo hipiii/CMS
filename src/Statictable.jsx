@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function Table() {
+function Statictable() {
   const [user, setUser] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -82,4 +82,4 @@ function Table() {
   );
 }
 
-export default Table;
+export default Statictable;
